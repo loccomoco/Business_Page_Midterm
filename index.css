@@ -176,7 +176,8 @@ section {
   padding: 5px;
   text-align: center;
   font-size: 12px;
-  position: inherit;
+  position: fixed;
+  width: 100%;
   left: 0;
   bottom: 0;
 }
