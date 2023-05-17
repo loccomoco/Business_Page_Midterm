@@ -1,0 +1,241 @@
+body {
+	background-color: #400d0d;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	float: right;
+	margin-top: -50px;
+	font-weight: bold;
+}
+
+h2 {
+	color: white;
+	text-shadow: 2px 1px black;
+}
+
+h3 {
+	color: white;
+	font-size: 26pt;
+	text-shadow: 2px 1px black;
+}
+
+p {
+	color: white;
+	text-shadow: 2px 1px black;
+}
+
+header {
+	background-color: #c79302;
+	height: 50px;
+	color: #000000;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 20px;
+}
+
+nav ul {
+	list-style: none;
+ 	margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+ }
+
+nav ul li a {
+	display: block;
+  padding: 8px;
+ 	margin: 8px;
+  text-decoration: none;
+  color: #000000;
+  font-size: 14pt;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+	background-color: #ddd;
+	border-radius: 20px;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #fff;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block
+}
+
+.dropdown-content a {
+	color: #333;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.signin-btn
+.signin {
+	font-size: 14pt;
+	text-align: center;
+	border-radius: 30px;
+  background-color: #077bad;
+  margin-right: 2px;
+  width: 100px;
+ 
+}
+
+.signin {
+	font-size: 14pt;
+	text-align: center;
+	border-radius: 30px;
+  background-color: #077bad;
+  width: 100px;
+}
+
+.signup {
+	font-size: 14pt;
+	text-align: center;
+	border-radius: 30px;
+  background-color: #077bad;
+  width: 100px;
+ }
+
+.signin:hover {
+	background-color: #83b6cc;
+}
+
+.signup:hover {
+	background-color: #83b6cc;
+}
+
+section {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 20px;
+	margin-left: 230px;
+	margin-bottom: 32px;
+}
+
+.product {
+	border: 2px outset #ddd;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 10px;
+	margin-left: 0px;
+	text-align: center;
+	width: 200px;
+}
+
+.product img {
+	border-radius: 10px;
+	width: 200px;
+	height: 134px;
+}
+
+.product h2 {
+	margin-top: 0;
+}
+
+.price {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color: #ddd;
+}
+
+.currency {
+  font-size: 18px;
+}
+
+.amount {
+  font-size: 26px;
+}
+
+.product button {
+	background-color: #333;
+	border: none;
+	color: #fff;
+	padding: 10px;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+.product button:hover {
+	background-color: #555;
+}
+
+.footer {
+  background-color: #000000;
+  padding: 5px;
+  text-align: center;
+  font-size: 12px;
+  position: inherit;
+  left: 0;
+  bottom: 0;
+}
+
+.container-aboutus {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+  margin-bottom: 58px;
+}
+
+.aboutus {
+	color: white;
+	font-size: 14pt;
+	margin-bottom: 26px;
+}
+
+.contactus-h1 {
+	color: #000000;
+	font-size: 26pt;
+	font-weight: bolder;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.container-form {
+	width: 500px;
+  margin: 50px auto;
+  margin-bottom: 190px;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 485px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: #575656;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #000000;
+}
